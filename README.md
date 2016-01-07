@@ -1,4 +1,4 @@
-# HTTPlug demo application
+# HTTPlug demo library
 
 **This is a demo to show how HTTPlug and PHP HTTP work in a library.**
 
