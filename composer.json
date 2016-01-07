@@ -1,0 +1,25 @@
+{
+    "name": "php-http/demo-library",
+    "description": "This is a demo to show how HTTPlug and PHP HTTP work in a library",
+    "require": {
+        "php-http/client-implementation": "^1.0",
+        "psr/http-message-implementation": "^1.0",
+        "php-http/discovery": "^0.6.4"
+    },
+    "require-dev": {
+        "php-http/guzzle6-adapter": "^0.3",
+        "php-http/message": "^0.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "Http\\Demo\\": "src/"
+    }
+}
