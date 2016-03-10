@@ -5,7 +5,7 @@
 
 ## How to start
 
-Here is how this package is initialized:
+Here is how this package is created:
 
 
 ``` bash
@@ -20,6 +20,9 @@ What really happens:
 3. Set `prefer-stable` to true and add some autoloading
 4. Install dependencies with composer
 5. Ignore Puli and Composer files
+
+**Note:** if you pull this package, you don't need to run `init.sh` again. It is just an easy representation of how this
+package is created.
 
 
 This package also contains some demo code to show how HTTPlug can be used with your library.

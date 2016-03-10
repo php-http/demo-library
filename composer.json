@@ -4,11 +4,12 @@
     "require": {
         "php-http/client-implementation": "^1.0",
         "psr/http-message-implementation": "^1.0",
-        "php-http/discovery": "^0.7"
+        "php-http/discovery": "^0.8"
     },
     "require-dev": {
-        "php-http/guzzle6-adapter": "^0.4",
-        "php-http/message": "^0.2"
+        "php-http/guzzle6-adapter": "^1.0",
+        "php-http/message": "^1.0",
+        "puli/composer-plugin": "^1.0@beta,>=1.0.0-beta9"
     },
     "license": "MIT",
     "authors": [
