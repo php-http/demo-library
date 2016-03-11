@@ -21,6 +21,8 @@
     "minimum-stability": "beta",
     "prefer-stable": true,
     "autoload": {
-        "Http\\Demo\\": "src/"
+        "psr-4": {
+            "Http\\Demo\\": "src/"
+        }
     }
 }
